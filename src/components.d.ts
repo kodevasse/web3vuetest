@@ -8,12 +8,12 @@ declare module 'vue' {
     CarbonDicomOverlay: typeof import('~icons/carbon/dicom-overlay')['default']
     CarbonLanguage: typeof import('~icons/carbon/language')['default']
     CarbonLogoGithub: typeof import('~icons/carbon/logo-github')['default']
+    CarbonLogoTwitter: typeof import('~icons/carbon/logo-twitter')['default']
     CarbonMoon: typeof import('~icons/carbon/moon')['default']
-    CarbonPedestrian: typeof import('~icons/carbon/pedestrian')['default']
     CarbonSun: typeof import('~icons/carbon/sun')['default']
-    CarbonWarning: typeof import('~icons/carbon/warning')['default']
     Counter: typeof import('./components/Counter.vue')['default']
     Footer: typeof import('./components/Footer.vue')['default']
+    Loader: typeof import('./components/Loader.vue')['default']
     README: typeof import('./components/README.md')['default']
   }
 }
