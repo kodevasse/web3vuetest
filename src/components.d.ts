@@ -12,6 +12,7 @@ declare module 'vue' {
     CarbonLogoInstagram: typeof import('~icons/carbon/logo-instagram')['default']
     CarbonLogoTwitter: typeof import('~icons/carbon/logo-twitter')['default']
     CarbonMoon: typeof import('~icons/carbon/moon')['default']
+    CarbonWarning: typeof import('~icons/carbon/warning')['default']
     CarbonSun: typeof import('~icons/carbon/sun')['default']
     Counter: typeof import('./components/Counter.vue')['default']
     Footer: typeof import('./components/Footer.vue')['default']
