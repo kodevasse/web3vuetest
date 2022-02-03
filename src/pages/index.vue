@@ -17,11 +17,11 @@ const { account, guestPosts, guestPostsCount } = storeToRefs(cryptoStore)
         <span class="mb-2">Sign up to my guestbook @ Polygon testnet Mumbai</span>
       </p>
       <p class="text-sm font-thin">
-        <span>Get some free Polygon (Mumbai) testnet tokens <a class="font-bold text-teal-500" href="https://faucet.polygon.technology/">here
+        <span>Get some free Polygon (Mumbai) testnet tokens <a class="font-bold text-teal-500" href="https://faucet.polygon.technology/" target="_blank">here
         </a>
         </span>
       </p><p class="text-sm mb-3 font-thin">
-        Add custom Polygon Mumbai to Metamask <a class="font-bold text-teal-500" href="https://chainlist.org/">network (search for Mumbai)
+        Add custom Polygon Mumbai to Metamask <a class="font-bold text-teal-500" href="https://chainlist.org/" target="_blank">network (search for Mumbai)
 
         </a>
       </p>
@@ -33,7 +33,7 @@ const { account, guestPosts, guestPostsCount } = storeToRefs(cryptoStore)
       <input
         v-model="messageInput"
         name="guestBookInfo"
-        class="py-4 px-4  shadow border rounded"
+        class="py-4 px-4  shadow border rounded text-gray-500"
         maxlength="20"
       >
       <button class="bg-yellow-300 rounded p-4 mt-10" @click="wave(messageInput)">
@@ -41,7 +41,7 @@ const { account, guestPosts, guestPostsCount } = storeToRefs(cryptoStore)
       </button>
     </div>
 
-    <div v-if="account" class="border shadow  w-4/12 p-4 mt-10">
+    <div v-if="account" class="border shadow  sm:w-4/12  p-4 mt-10">
       <h3 class="text-2xl">
         Number Of Entries: {{ guestPostsCount }}
       </h3>
